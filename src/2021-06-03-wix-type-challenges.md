@@ -1,5 +1,6 @@
 ---
 layout: cover
+monaco: true
 ---
 
 # Type ~~Script~~ Challenges
@@ -106,7 +107,6 @@ We wait for ten minutes and afterwards, gathering in general room for discussion
 
 ---
 layout: full
-monaco: true
 ---
 
 # Hello, World!
@@ -127,7 +127,6 @@ type cases = [
 
 ---
 layout: full
-monaco: true
 ---
 
 # Pick
@@ -154,7 +153,6 @@ type cases = [
 
 ---
 layout: full
-monaco: true
 ---
 
 # Readonly
@@ -177,7 +175,6 @@ type cases = [
 
 ---
 layout: full
-monaco: true
 ---
 
 # First of Array
