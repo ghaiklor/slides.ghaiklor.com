@@ -1,0 +1,21 @@
+{
+  "name": "slides.ghaiklor.com",
+  "version": "0.0.0",
+  "description": "The website to host all the slides I made for events, talks, workshops and the likes",
+  "license": "CC-BY-4.0",
+  "private": true,
+  "author": {
+    "email": "ghaiklor@gmail.com",
+    "name": "Eugene Obrezkov",
+    "url": "https://ghaiklor.com"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "workspaces": [
+    "*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces"
+  }
+}
