@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "slidev --open",
-    "build": "slidev build",
+    "build": "slidev build --out view --base /2021-06-03-wix-type-challenges/view/",
     "export": "slidev export"
   },
   "dependencies": {
