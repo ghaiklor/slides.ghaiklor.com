@@ -123,6 +123,7 @@ type cases = [
 ]
 ```
 
+
 ---
 layout: full
 ---
@@ -148,6 +149,7 @@ type cases = [
 ]
 ```
 
+
 ---
 layout: full
 ---
@@ -169,6 +171,7 @@ type cases = [
 ]
 ```
 
+
 ---
 layout: full
 ---
@@ -189,6 +192,7 @@ type cases = [
   Expect<Equal<First<[undefined]>, undefined>>
 ]
 ```
+
 
 ---
 layout: statement
