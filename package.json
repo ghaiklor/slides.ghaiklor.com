@@ -12,10 +12,13 @@
   "engines": {
     "node": ">=14"
   },
-  "workspaces": [
-    "*"
-  ],
   "scripts": {
-    "build": "npm run build --workspaces"
+    "build": "node scripts/build.js"
+  },
+  "dependencies": {
+    "@slidev/theme-default": "^0.14.2"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^0.15.0"
   }
 }
