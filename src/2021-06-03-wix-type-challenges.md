@@ -88,8 +88,8 @@ layout: full
 <v-clicks>
 
 - Open the slides in Google Chrome (link in the chat)
-- When we get to the slide with the challenge, there will be a snippet
-- On this specific slide we will split into breakout rooms
+- Navigate to the "Hello, World!" slide with the code snippet (slide #7)
+- When we are on the slide with the snippet, its time to split into breakout rooms
 - <carbon-forward-10 />
 - Gather in general room again where we discuss the solutions
 
