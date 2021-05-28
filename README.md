@@ -1,4 +1,4 @@
-# .slidev
+# slides.ghaiklor.com
 
 This is the repository where I am holding slides written in Markdown for various events.
 
