@@ -1,6 +1,6 @@
 # slides.ghaiklor.com
 
-This is the repository where I am holding slides written in Markdown for various events.
+The website to host all the slides I made for events, talks, workshops and the likes.
 
 ## Structure
 
