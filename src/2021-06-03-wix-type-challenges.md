@@ -1,6 +1,7 @@
 ---
 layout: cover
 monaco: true
+routerMode: hash
 ---
 
 # Type ~~Script~~ Challenges
