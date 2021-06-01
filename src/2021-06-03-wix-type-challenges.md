@@ -125,6 +125,8 @@ type cases = [
 ]
 ```
 
+[Open in TypeScript Playground](https://tsch.js.org/13/play)
+
 
 ---
 layout: full
@@ -151,6 +153,8 @@ type cases = [
 ]
 ```
 
+[Open in TypeScript Playground](https://tsch.js.org/4/play)
+
 
 ---
 layout: full
@@ -172,6 +176,8 @@ type cases = [
   Expect<Equal<MyReadonly<Todo1>, Readonly<Todo1>>>
 ]
 ```
+
+[Open in TypeScript Playground](https://tsch.js.org/7/play)
 
 
 ---
@@ -195,6 +201,8 @@ type cases = [
 ]
 ```
 
+[Open in TypeScript Playground](https://tsch.js.org/14/play)
+
 
 ---
 layout: statement
@@ -210,4 +218,14 @@ So, please, leave your feedback for our guild master.
 In case, you are interested in such an activity, let him know.
 We will do whatever we can to continue such an activity.
 Thanks!
+-->
+
+---
+layout: statement
+---
+
+# Thank You!
+
+<!--
+Just a slide with a thank you.
 -->
