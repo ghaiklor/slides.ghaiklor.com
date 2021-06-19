@@ -5,10 +5,11 @@ const util = require("util");
 const sources = fs.readdirSync(path.resolve(__dirname, "..", "src"));
 
 (async function main() {
-  await Promise.allSettled(
+  await Promise.all(
     sources.map(async (source) => {
-      console.info(`Formatting ${source}...`);
-      await util.promisify(child_process.exec)(`slidev format ${source}`);
+      const absolutePath = path.resolve(__dirname, "..", "src", source);
+      console.info(`Formatting ${absolutePath}...`);
+      await util.promisify(child_process.exec)(`slidev format ${absolutePath}`);
     })
   );
 })();
