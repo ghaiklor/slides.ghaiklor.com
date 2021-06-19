@@ -8,7 +8,7 @@ const sources = fs.readdirSync(path.resolve(__dirname, "..", "src"));
   await Promise.all(
     sources.map(async (source) => {
       const absolutePath = path.resolve(__dirname, "..", "src", source);
-      console.info(`Formatting ${absolutePath}...`);
+      console.info(`Formatting ${source}...`);
       await util.promisify(child_process.exec)(`slidev format ${absolutePath}`);
     })
   );
