@@ -2,6 +2,7 @@
 layout: cover
 monaco: true
 routerMode: hash
+title: Type ~~Script~~ Challenges
 ---
 
 # Type ~~Script~~ Challenges
