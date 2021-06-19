@@ -279,24 +279,6 @@ const result = a
 
 
 ---
-layout: full
----
-
-# Promise.all
-
-Type the function `Promise.all` that accepts an array of `PromiseLike` objects.
-The returning value should be `Promise<T>` where `T` is the resolved result array.
-
-```typescript {monaco}
-declare function PromiseAll(values: any): any
-
-const promiseAllTest1 = PromiseAll([1, 2, 3] as const)
-const promiseAllTest2 = PromiseAll([1, 2, Promise.resolve(3)] as const)
-const promiseAllTest3 = PromiseAll([1, 2, Promise.resolve(3)])
-```
-
-
----
 layout: statement
 ---
 
