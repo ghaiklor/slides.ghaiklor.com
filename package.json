@@ -17,10 +17,10 @@
     "format": "node scripts/format.js"
   },
   "dependencies": {
-    "@slidev/theme-default": "0.14.2",
+    "@slidev/theme-default": "0.19.1",
     "@type-challenges/utils": "0.1.1"
   },
   "devDependencies": {
-    "@slidev/cli": "0.16.0"
+    "@slidev/cli": "0.20.5"
   }
 }
