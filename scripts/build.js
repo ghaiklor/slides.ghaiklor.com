@@ -4,8 +4,8 @@ const child_process = require("child_process");
 const util = require("util");
 const sources = fs.readdirSync(path.resolve(__dirname, "..", "src"));
 
-(async function main() {
-  for (const source of sources) {
+(async function build() {
+  for await (const source of sources) {
     const absolutePath = path.resolve(__dirname, "..", "src", source);
     const slideName = source.split(".")[0];
 
