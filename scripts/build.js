@@ -9,11 +9,6 @@ const sources = fs.readdirSync(path.resolve(__dirname, "..", "src"));
     const absolutePath = path.resolve(__dirname, "..", "src", source);
     const slideName = source.split(".")[0];
 
-    if (fs.existsSync(slideName) && fs.statSync(absolutePath).mtime === fs.statSync(slideName).mtime) {
-      console.info(`Skipping the build for ${slideName}, it's already built`);
-      continue;
-    }
-
     console.info(`Building ${slideName}...`);
     await util.promisify(child_process.exec)(`slidev build --out ${slideName} --base /${slideName}/ ${absolutePath}`);
   }
