@@ -14,7 +14,8 @@
   },
   "scripts": {
     "build": "node scripts/build.js",
-    "format": "node scripts/format.js"
+    "format": "node scripts/format.js",
+    "prebuild": "npm run format"
   },
   "dependencies": {
     "@slidev/theme-default": "0.19.1",
