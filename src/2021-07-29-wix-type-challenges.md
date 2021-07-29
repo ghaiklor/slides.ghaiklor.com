@@ -226,13 +226,4 @@ layout: statement
 layout: statement
 ---
 
-# More TypeScript developers on server
-
-### We are not sure, possibly, maybe, no promises, just a discussion
-
-
----
-layout: statement
----
-
 # Thanks!
