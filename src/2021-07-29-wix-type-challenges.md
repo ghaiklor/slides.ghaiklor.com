@@ -16,23 +16,9 @@ layout: center
 
 # On-Site Meetup!
 
-<v-clicks>
+### It's Happening
 
-- On!
-- Site!
-- Meetup!
-- ![It's Happening](https://media.giphy.com/media/huJmPXfeir5JlpPAx0/giphy.gif)
-
-</v-clicks>
-
-
----
-layout: statement
----
-
-# Pizza Pepperoni, Mario!
-
-### We do not require washing your hands after the pizza, but it is after what we will do today
+![It's Happening](https://media.giphy.com/media/huJmPXfeir5JlpPAx0/giphy.gif)
 
 
 ---
