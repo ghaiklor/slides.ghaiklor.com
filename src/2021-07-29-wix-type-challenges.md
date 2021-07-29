@@ -57,6 +57,26 @@ layout: statement
 layout: full
 ---
 
+# Hello, World!
+
+```typescript {monaco}
+import { Equal, Expect, NotAny } from '@type-challenges/utils'
+
+type HelloWorld = any
+
+type cases = [
+  Expect<NotAny<HelloWorld>>,
+  Expect<Equal<HelloWorld, string>>
+]
+```
+
+[Open in TypeScript Playground](https://tsch.js.org/13/play)
+
+
+---
+layout: full
+---
+
 # Type Lookup
 
 ```typescript {monaco}
