@@ -29,9 +29,9 @@ layout: full
 
 <v-clicks>
 
-- To have more maintainable code (**error-prone safety**)
+- To have much more safe code (**runtime safety**)
+- To have less tests (**some error classes are covered by compiler**)
 - To have less direct communication with the team (**type as a documentation**)
-- To encode business logic into the types (**joke, please do not do this**)
 - To understand what Israel developers wrote and make sure that they don’t understand what we wrote (**based on silly talks**)
 
 </v-clicks>
@@ -41,7 +41,7 @@ layout: full
 layout: statement
 ---
 
-# TypeScript is not about “here is a string, there is a number”
+# TypeScript is not about strings and numbers only
 
 ## Its type system has much more to offer than that
 
