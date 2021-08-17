@@ -18,7 +18,7 @@ layout: full
 
 <v-clicks>
 
-- Wix for almost 2 years now
+- Working at Wix for almost 2 years
 - Infrastructure team (frameworks, build tools, etc)
 - Too noisy when there is nothing to do
 
@@ -29,7 +29,7 @@ layout: full
 layout: statement
 ---
 
-# Why Type Challenges?
+# Type Challenges?
 
 
 ---
@@ -296,6 +296,7 @@ layout: full
 
 <v-clicks>
 
+- Type Challenges ([type-challenges/type-challenges](https://github.com/type-challenges/type-challenges))
 - Telegram channel about TypeScript ([t.me/wild_wild_web](https://t.me/wild_wild_web))
 - My personal Twitter (attention, opinions only) ([@ghaiklor](https://twitter.com/ghaiklor))
 
